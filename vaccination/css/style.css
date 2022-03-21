@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*nav*/
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #fff 50%, #d9d9ea 60%);
+    /* width: 100%; */
+}
+
+#logo {
+    color: rgb(56, 88, 214);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding: 1.4rem;
+    margin: 1rem 8rem;
+}
+
+.grays {
+    color: rgb(110, 124, 147);
+    font-weight: 500;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.grays:hover {
+    background-color: rgb(57, 89, 215);
+    border-radius: 10%;
+    color: aliceblue;
+    box-shadow: 0px 5px 8px 1px #3656d4;
+}
+
+
+/*main*/
+
+.container-main {
+    display: flex;
+}
+
+.box {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.box-left {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    background-color: bisque;
+    width: 40%;
+}
+
+#women-red-mask {
+    width: 100%;
+}
+
+.margin-box-left {
+    margin: 1rem 0;
+}
+
+h1 {
+    color: #1f3e72;
+    font-size: 3rem;
+}
+
+p {
+    font-weight: bold;
+    color: rgb(110, 124, 147);
+    font-size: 1rem;
+}
+
+.little-icon {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.little-icon p {
+    color: black;
+    font-size: .8rem;
+}
+
+.icon {
+    width: 1.5rem;
+    box-shadow: 0px 3px 14px 0px #fcf503;
+}
